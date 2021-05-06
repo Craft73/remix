@@ -27,7 +27,7 @@ function setup(){
                 num =map(num,96,122,2,28);
                 ellipse(j*5+3,i*35+num,3);
                 
-                // curveVertex(j*5+3,i*35+num)
+                curveVertex(j*5+3,i*35+num)
             }
             // 
         endShape();    
