@@ -8,6 +8,7 @@ function preload(){
 
 function setup(){
     createCanvas(800,800);
+    
     // background(0);
     // text(lines,100,100);
     // words=split(lines," ");

@@ -38,7 +38,7 @@ function setup(){
 function draw(){
     
     // pane
-    background(255);
+    background(255,248,233);
     // noLoop();
     
     // console.log(lines.length);

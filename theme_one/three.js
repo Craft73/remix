@@ -11,7 +11,8 @@ function setup(){
 
 function draw() {
     noLoop();
-    background(20);
+    
+    background(255,248,233);
     colorMode(HSB,12);
     img = createImage(22, 22);
     img.loadPixels();

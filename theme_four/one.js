@@ -16,7 +16,7 @@ function setup(){
     
 }
 function draw(){
-    background(255);
+    background(255,248,233);
     for(var i=0;i<words.length;i++){
         var x = i%50+noise(frameCount/100,i)*3;
         var y = floor(i/50)+noise(frameCount/120,i)*3;

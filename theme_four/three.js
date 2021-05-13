@@ -10,15 +10,11 @@ function preload(){
 
 function setup(){
     createCanvas(800,800);
-    // background(0);
-    // text(lines,100,100);
-    // words=split(lines," ");
-    colorMode(HSB,100)
-    // console.log(lines.length);
+ 
     
 }
 function draw(){
-    background(255);
+    background(255,248,233);
     for(var i=0; i<lines.length;i++){
         // text(lines[i],20,20*i+20);
         words=split(lines[i],"");

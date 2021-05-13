@@ -22,7 +22,7 @@ function setup(){
 }
 
 function draw(){
-    background(255);
+    background(255,248,233);
     for(var i=0; i<lines.length;i++){
         // text(lines[i],20,20*i+20);
         words=split(lines[i],"，");
